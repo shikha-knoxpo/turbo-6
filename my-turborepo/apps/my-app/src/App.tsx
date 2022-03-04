@@ -1,17 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import {Button} from "ui";
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import { Button } from "ui";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        <p className="text-sm">
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
-        <Button/>
+        <Button />
         <a
           className="App-link"
           href="https://reactjs.org"
